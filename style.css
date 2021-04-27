@@ -471,12 +471,11 @@ section .title::after,
 .contact .title::after {
   content: "get in touch";
 }
-/* .logos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.logos {
+  /*justify-content: center;
   align-content: center;
-} */
+ */
+}
 .logos a {
   margin: 10px;
 }
@@ -492,11 +491,11 @@ footer {
   color: #fff;
   text-align: center;
 }
-footer span a {
+footer span {
   color: crimson;
   text-decoration: none;
 }
-footer span a:hover {
+footer span :hover {
   text-decoration: underline;
 }
 
