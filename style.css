@@ -292,7 +292,7 @@ section .title::after,
   display: grid;
   justify-content: center;
   grid-template-columns: 350px;
-  grid-template-rows: 350px 210px 80px;
+  grid-template-rows: 450px 110px 80px;
   grid-template-areas: "image" "text" "stats";
 
   border-radius: 18px;
@@ -337,7 +337,7 @@ section .title::after,
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: whitesmoke;
+  background: #009cdc 28%;
 }
 .card-stats .stat {
   padding: 10px;
@@ -365,14 +365,14 @@ section .title::after,
 }
 .card-stats button {
   display: flex;
-  background: crimson;
+  background: #009cdc 28%;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   position: absolute;
-  margin-left: 70px;
+  margin-left: 90px;
   border-radius: 6px;
   border: 2px solid crimson;
   transition: all 0.3s ease;
@@ -395,7 +395,7 @@ section .title::after,
 
 /*card2*/
 .card-image.card2 {
-  background: url("images/img2.jpg");
+  background: url("images/weather1.jpg");
   background-size: cover;
 }
 .card-text.card2 .date {
@@ -406,7 +406,7 @@ section .title::after,
   border-right: 1px solid rgb(185, 67, 20);
 }
 .card-stats.card2 {
-  background: rgb(255, 77, 7);
+  background: #009cdc 28%;
 }
 /*card3*/
 .card-image.card3 {
@@ -463,9 +463,12 @@ section .title::after,
 /* contact section styling */
 .row {
   display: flex;
+  flex-wrap: wrap;
   margin: 20px;
+  justify-content: center;
+  align-content: center;
 }
-.sub-title {
+.info a {
   color: crimson;
 }
 .contact .title::after {

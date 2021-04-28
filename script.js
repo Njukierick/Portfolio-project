@@ -50,7 +50,7 @@ $(document).ready(function () {
   });
 
   // $(".view-btn").click(function () {
-  //   window.location("https://www.rredux.netlify.app/");
+  //   window.location("https://www.weathercastwebapp.netlify.app/");
   // });
 
   var typed = new Typed(".typing-2", {
@@ -85,4 +85,7 @@ $(document).ready(function () {
 
 function pageRedirect() {
   window.location.href = "https://rreduxcart.netlify.app";
+}
+function myFunction() {
+  window.location.href = "https://weathercastwebapp.netlify.app";
 }
